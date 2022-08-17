@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="../static/css/camera.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+     <h2 id="register">Register Student Face Image</h2>
+    <!--<button id="start-camera">Start Camera</button>-->
+    <video id="video" width="320" height="240" autoplay></video>
+    <button id="click-photo">Click Photo</button>
+    <form action="/register" method="post" >
+        
+        <label for="rollnumber">Roll Number :</label>
+        <input type="text" id="rollnumber" name="rollnumber" placeholder="Enter Roll Number">
+        <br>
+        <label for="name">Name :</label></td>
+        <tr><input type="text" id="name" name="name" placeholder="Enter Full Name">
+        <br>
+        <td></td><label for="year">Year :</label>
+        <input type="text" id="year" name="year" placeholder="Enter Acadamic Year">
+        <br>
+        <label for="branch">Branch :</label>
+        <input type="text" id="branch" name="branch" placeholder="Enter Branch">
+        <br>
+        <label for="sec">Section :</label>
+        <input type="text" id="sec" name="sec" placeholder="Enter Section">
+        <br>
+        <div id="dataurl-container" style="position: absolute; left: 63%; top: 50%;">
+            <canvas id="canvas" width="320" height="240"></canvas>
+            <div id="dataurl-header">Image Data URL</div>
+            <input type="text" id="dataurl" name="u" readonly style="display:none">
+        </div><br>
+        <input type="submit" value="Register" /><br>
+    </form>
+    <button id="start-camera">Start Camera</button>
+     <br>
+    {{reg}}
+<script>
+
+    let camera_button = document.querySelector("#start-camera");
+    let video = document.querySelector("#video");
+    let click_button = document.querySelector("#click-photo");
+    let canvas = document.querySelector("#canvas");
+    let dataurl = document.querySelector("#dataurl");
+    let dataurl_container = document.querySelector("#dataurl-container");
+
+    camera_button.addEventListener('click', async function() {
+        let stream = null;
+
+        try {
+            stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+        }
+        catch(error) {
+            alert(error.message);
+            return;
+        }
+
+        video.srcObject = stream;
+
+        video.style.display = 'block';
+        camera_button.style.display = 'none';
+        click_button.style.display = 'block';
+    });
+
+    click_button.addEventListener('click', function() {
+        canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+        let image_data_url = canvas.toDataURL('image/jpeg');
+        console.log(image_data_url);
+        dataurl.value = image_data_url;
+        dataurl_container.style.display = 'block';
+    });
+</script>
+
+</body>
+</html>
