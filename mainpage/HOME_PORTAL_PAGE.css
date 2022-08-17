@@ -1,0 +1,1472 @@
+.mediaViewInfo {
+	--web-view-name: HOME PORTAL PAGE;
+	--web-view-id: HOME_PORTAL_PAGE;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: HOME_PORTAL_PAGE;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#HOME_PORTAL_PAGE {
+	position: absolute;
+	width: 1520px;
+	height: 1431px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: HOME PORTAL PAGE;
+	--web-view-id: HOME_PORTAL_PAGE;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Login {
+	left: 1447px;
+	top: 91px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#a_product_from_Cod3Knights {
+	left: 957.588px;
+	top: 128.417px;
+	position: absolute;
+	overflow: visible;
+	width: 314px;
+	height: 66px;
+	text-align: center;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Path_1_bv {
+	fill: url(#Path_1_bv);
+}
+.Path_1_bv {
+	overflow: visible;
+	position: absolute;
+	width: 595.053px;
+	height: 69.592px;
+	transform: matrix(1,0,0,1,557.4735,54.7123) rotate(-1deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Track_ {
+	left: 429.975px;
+	top: 36.008px;
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	height: 67px;
+	text-align: left;
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#my {
+	left: 456.912px;
+	top: 88.575px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	height: 67.4169921875px;
+	text-align: center;
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgb(6, 5, 5);
+}
+#Cod3_Knights {
+	left: 90px;
+	top: 42px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	height: 28px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Icon_simple-codepen {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 20px;
+	top: 20px;
+	overflow: visible;
+}
+#Icon_simple-codepen_b {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Icon_simple-codepen_b {
+	overflow: visible;
+	position: absolute;
+	width: 71.277px;
+	height: 71.06px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_material-account-circle {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 1435px;
+	top: 15px;
+	overflow: visible;
+}
+#Icon_material-account-circle_b {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-account-circle_b {
+	overflow: visible;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_255 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_255 {
+	position: absolute;
+	overflow: visible;
+	width: 1520px;
+	height: 829px;
+	left: 0px;
+	top: 602px;
+}
+#Your_paragraph_text {
+	position: absolute;
+	width: 1520px;
+	height: 400px;
+	left: 0px;
+	top: 201px;
+	overflow: visible;
+}
+#Rectangle_96 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_96 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 350px;
+	left: 230px;
+	top: 665px;
+}
+#Rectangle_245 {
+	fill: rgba(217,216,216,0.302);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_245 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 46px;
+	left: 230px;
+	top: 715px;
+}
+#Rectangle_94 {
+	fill: rgba(180,180,180,1);
+}
+.Rectangle_94 {
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	height: 167px;
+	left: 10px;
+	top: 317px;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: HOME_PORTAL_PAGE___2.html;
+	cursor: pointer;
+}
+#Icon_ionic-ios-arrow-back {
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-ios-arrow-back {
+	overflow: visible;
+	position: absolute;
+	width: 35px;
+	height: 100px;
+	left: 23.5px;
+	top: 352.314px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_97 {
+	fill: rgba(0,128,255,1);
+}
+.Rectangle_97 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 50px;
+	left: 230px;
+	top: 665px;
+}
+#Rectangle_98 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_98 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 350px;
+	left: 610px;
+	top: 665px;
+}
+#Rectangle_99 {
+	fill: rgba(0,128,255,1);
+}
+.Rectangle_99 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 50px;
+	left: 610px;
+	top: 665px;
+}
+#Rectangle_100 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_100 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 350px;
+	left: 990px;
+	top: 665px;
+}
+#Rectangle_101 {
+	fill: rgba(0,128,255,1);
+}
+.Rectangle_101 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 50px;
+	left: 990px;
+	top: 665px;
+}
+#Rectangle_107 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_107 {
+	position: absolute;
+	overflow: visible;
+	width: 450px;
+	height: 200px;
+	left: 40px;
+	top: 1116px;
+}
+#Path_16 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_16 {
+	overflow: visible;
+	position: absolute;
+	width: 450px;
+	height: 200px;
+	left: 535px;
+	top: 1116px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_109 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_109 {
+	position: absolute;
+	overflow: visible;
+	width: 450px;
+	height: 200px;
+	left: 1030px;
+	top: 1116px;
+}
+#Path_14 {
+	fill: rgba(0,102,204,1);
+}
+.Path_14 {
+	overflow: visible;
+	position: absolute;
+	width: 450px;
+	height: 50px;
+	left: 535px;
+	top: 1067px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_112 {
+	fill: rgba(0,102,204,1);
+}
+.Rectangle_112 {
+	position: absolute;
+	overflow: visible;
+	width: 450px;
+	height: 50px;
+	left: 1030px;
+	top: 1067px;
+}
+#Rectangle_113 {
+	fill: rgba(0,102,204,1);
+}
+.Rectangle_113 {
+	position: absolute;
+	overflow: visible;
+	width: 450px;
+	height: 50px;
+	left: 40px;
+	top: 1067px;
+}
+#Click_here_to_get_information_ {
+	left: 247.5px;
+	top: 1368.5px;
+	position: absolute;
+	overflow: visible;
+	width: 1026px;
+	height: 22px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_95 {
+	fill: rgba(180,180,180,1);
+}
+.Rectangle_95 {
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	height: 167px;
+	left: 1448px;
+	top: 317px;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: HOME_PORTAL_PAGE___1.html;
+	cursor: pointer;
+}
+#Icon_ionic-ios-arrow-forward {
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-ios-arrow-forward {
+	overflow: visible;
+	position: absolute;
+	width: 35px;
+	height: 100px;
+	left: 1461.5px;
+	top: 352.313px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_material-account-circle_cn {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-account-circle_cn {
+	overflow: visible;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 997px;
+	top: 673px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-user-alt {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-user-alt {
+	overflow: visible;
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 235.6px;
+	top: 672px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#image {
+	position: absolute;
+	width: 63px;
+	height: 50px;
+	left: 610px;
+	top: 665px;
+	overflow: visible;
+}
+#Icon_material-announcement {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-announcement {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 60px;
+	top: 1077px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Announcements_for_Students {
+	left: 100px;
+	top: 1077px;
+	position: absolute;
+	overflow: visible;
+	width: 258px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Icon_material-announcement_cs {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-announcement_cs {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 555px;
+	top: 1078px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_material-announcement_ct {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-announcement_ct {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 1047px;
+	top: 1078px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Announcements_for_Admin {
+	left: 1087px;
+	top: 1077px;
+	position: absolute;
+	overflow: visible;
+	width: 239px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Announcements_for_Institution {
+	left: 596px;
+	top: 1077px;
+	position: absolute;
+	overflow: visible;
+	width: 270px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Text {
+	left: 53px;
+	top: 1137px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_cx {
+	transform: matrix(1,0,0,1,53.001,1192.4844) rotate(29deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_cy {
+	left: 546px;
+	top: 1138px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Scholarship_for_this_summer_se {
+	left: 73px;
+	top: 1130px;
+	position: absolute;
+	overflow: visible;
+	width: 401px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Version_21031_is_under_testing {
+	left: 1069px;
+	top: 1128px;
+	position: absolute;
+	overflow: visible;
+	width: 404px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Biometric_Device_Software_upda {
+	left: 1069px;
+	top: 1156px;
+	position: absolute;
+	overflow: visible;
+	width: 408px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Check_the_syllabus_updates_on_ {
+	left: 72px;
+	top: 1187px;
+	position: absolute;
+	overflow: visible;
+	width: 397px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Independence_Day_SoPs_Circular {
+	left: 567px;
+	top: 1133px;
+	position: absolute;
+	overflow: visible;
+	width: 410px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_c {
+	left: 546px;
+	top: 1162px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_da {
+	left: 546px;
+	top: 1211px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_db {
+	left: 546px;
+	top: 1233px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_dc {
+	left: 546px;
+	top: 1259px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_dd {
+	left: 546px;
+	top: 1282px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_de {
+	left: 1047px;
+	top: 1133px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_df {
+	left: 1047px;
+	top: 1161px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_dg {
+	left: 53px;
+	top: 1218px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Update_all_details_before_2208 {
+	left: 73px;
+	top: 1212px;
+	position: absolute;
+	overflow: visible;
+	width: 273px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_dh {
+	left: 53px;
+	top: 1241px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#National_Drawing_Competition_f {
+	left: 73px;
+	top: 1236px;
+	position: absolute;
+	overflow: visible;
+	width: 389px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_di {
+	left: 53px;
+	top: 1286px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Results_of_National_Olympiad_J {
+	left: 73px;
+	top: 1284px;
+	position: absolute;
+	overflow: visible;
+	width: 266px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Update_Student_Details_before_ {
+	left: 1069px;
+	top: 1204px;
+	position: absolute;
+	overflow: visible;
+	width: 318px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_dj {
+	left: 1047px;
+	top: 1209px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_dk {
+	left: 1047px;
+	top: 1237px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Students {
+	left: 282px;
+	top: 677px;
+	position: absolute;
+	overflow: visible;
+	width: 78px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Institution {
+	left: 676px;
+	top: 677px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Admin {
+	left: 1042px;
+	top: 677px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Recognition_of_Merit_Scholarsh {
+	left: 1069px;
+	top: 1233px;
+	position: absolute;
+	overflow: visible;
+	width: 260px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Component_63__1 {
+	position: absolute;
+	width: 44px;
+	height: 24px;
+	left: 252px;
+	top: 726px;
+	overflow: visible;
+}
+#Login_dp {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_247 {
+	fill: rgba(217,216,216,0.302);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_247 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 46px;
+	left: 610px;
+	top: 715px;
+}
+#Component_64__1 {
+	position: absolute;
+	width: 44px;
+	height: 24px;
+	left: 632px;
+	top: 726px;
+	overflow: visible;
+}
+#Login_ds {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_248 {
+	fill: rgba(217,216,216,0.302);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_248 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 46px;
+	left: 990px;
+	top: 715px;
+}
+#Component_65__1 {
+	position: absolute;
+	width: 44px;
+	height: 24px;
+	left: 1012px;
+	top: 726px;
+	overflow: visible;
+}
+#Login_dv {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_dw {
+	left: 245px;
+	top: 782px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_dx {
+	left: 245px;
+	top: 810px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_dy {
+	left: 245px;
+	top: 920px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_dz {
+	left: 245px;
+	top: 892px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_d {
+	left: 245px;
+	top: 836px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_ea {
+	left: 245px;
+	top: 864px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Students_Login {
+	left: 268px;
+	top: 777px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_eb {
+	left: 628px;
+	top: 782px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Institution_Login {
+	left: 654px;
+	top: 777px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Feedback {
+	left: 268px;
+	top: 920px;
+	position: absolute;
+	overflow: visible;
+	width: 76px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Attendance {
+	left: 268px;
+	top: 804px;
+	position: absolute;
+	overflow: visible;
+	width: 92px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_ec {
+	left: 628px;
+	top: 810px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Teacher_Portal {
+	left: 654px;
+	top: 805px;
+	position: absolute;
+	overflow: visible;
+	width: 112px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_ed {
+	left: 628px;
+	top: 838px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Institution_Admin_Portal {
+	left: 654px;
+	top: 835px;
+	position: absolute;
+	overflow: visible;
+	width: 190px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_ee {
+	left: 628px;
+	top: 865px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Scholarship {
+	left: 268px;
+	top: 835px;
+	position: absolute;
+	overflow: visible;
+	width: 92px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Marks {
+	left: 268px;
+	top: 862px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Bank_Details {
+	left: 268px;
+	top: 890px;
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Payrolls_ {
+	left: 655px;
+	top: 861px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_ei {
+	left: 628px;
+	top: 892px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Time_Table {
+	left: 655px;
+	top: 887px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_ei {
+	left: 628px;
+	top: 892px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Text_ej {
+	left: 1008px;
+	top: 777px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Admin_Login {
+	left: 1032px;
+	top: 771px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Text_el {
+	left: 1008px;
+	top: 805px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Edit_Details {
+	left: 1034px;
+	top: 800px;
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+
+.prev  {
+	display: inline-block;
+    background-color: #ffffff;
+    position: relative;
+    
+    border-radius: 25px;
+    border: 5px double #cccccc;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .next {
+	display: inline-block;
+    background-color: #ffffff;
+    position: relative;
+    left: 92%;
+	
+    border-radius: 25px;
+
+    border: 5px double #cccccc;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  /* Position the "next button" to the right */
+  
+
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
