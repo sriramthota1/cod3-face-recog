@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    text-align: center;
+    color: white;
+    /* font-family: Verdana, Tahoma, sans-serif; */
+    font-family: "Open Sans", sans-serif;
+    font-size: larger;
+    background-image: url('../images/pageImages/bg.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 1% 2%;
+}
+.navbar img{
+    width: 80px;
+}
+.navtitle{
+    display: flex;
+    justify-content: baseline; 
+}
+.navtitle p{
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+}
+.titletag{
+    text-align: center;
+    display: inline-flex;
+    margin-left: -13%;
+}
+.trackmy p{   
+    margin-block-start: 0em;
+    margin-block-end: 2px;
+    text-align: right;
+    color: white;
+    font-size: 40px;
+    font-weight: 550;
+}
+.attendance p{
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    font-size: 80px;
+    font-weight: bolder;
+    /*color: rgba(7, 7, 8, 0.681);*/
+    webkit-background-clip: text;
+    webkit-text-fill-color: transparent;
+}
+.producttitle p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-right: -70%;
+    color: rgb(248, 244, 244);
+    
+}
+
+.logintag{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+}
+
+.college img{
+    width: 60%;
+}
+.college p{
+    margin-top: -10px;
+    cursor: pointer;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+.college p:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+.line p{
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+.government img{
+    width: 60%;
+}
+.government p{
+    margin-top: -10px;
+    cursor: pointer;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+.government p:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+.info p{
+    cursor: pointer;
+}
+
+#click-photo {
+   
+    position: absolute;
+  left: 250px;
+  top: 620px;
+}
+#video {
+   
+    position: absolute;
+  left: 220px;
+  top: 320px;
+}
+button{
+   
+    display: inline-block;
+    background-color: #ffffff;
+    position: relative;
+    
+    border-radius: 25px;
+    border: 5px double #cccccc;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  button:hover {opacity: 0.6}
+#register{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 25px;
+   
+}
+
+ /*.t{
+    top:
+} */
